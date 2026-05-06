@@ -9,6 +9,8 @@ Abrir Navegador
 
 Dado que o usuário está na página de login do site saucedemo.com
     Go To              ${URL}  
+    Wait Until Element Is Visible    id=user-name    timeout=10s
+    Wait Until Element Is Visible    id=password    timeout=10s
 
 Quando o usuário insere as credenciais válidas
     Input Text         id=user-name    ${USERNAME}
