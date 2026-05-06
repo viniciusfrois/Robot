@@ -6,7 +6,7 @@
 ## Estrutura
 
 - `resources`: Keywords/Regras de negócio
-- `pages`: Variables
+- `pages`: Variables/Locators
 - `reports`: Pasta para salvar reports e logs durante execução
 - `login_test.robot`: Arquivo principal de execução dos testes
 
