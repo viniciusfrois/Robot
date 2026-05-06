@@ -1,13 +1,14 @@
 # Robot Framework
 
-- Projeto de teste automatizados utilizando Robot Framework e Selenium Library aplicando BDD+Gherkin
+- Projeto de teste automatizados utilizando Robot Framework e Selenium Library aplicando BDD + Gherkin
 - Utilizando o site: https://www.saucedemo.com/
 
 ## Estrutura
 
-- `pages`: Camada de abstração das páginas (Page Object Model)
+- `resources`: Keywords/Regras de negócio
+- `pages`: Variables
 - `reports`: Pasta para salvar reports e logs durante execução
-- `saucedemo_testes_bdd`: Arquivo principal de execução dos testes
+- `login_test.robot`: Arquivo principal de execução dos testes
 
 ## Requisitos
 
@@ -26,7 +27,7 @@
 ## Como executar
 
 ```bash
-robot --outputdir reports/login saucedemo_testes_bdd.robot
+robot --outputdir reports/login tests/login_test.robot
 OU
-robot saucedemo_testes_bdd.robot
+robot tests/login_test.robot
 ```
