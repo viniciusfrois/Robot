@@ -27,7 +27,7 @@
 ## Como executar
 
 ```bash
-robot --outputdir reports/login tests/login_test.robot
+robot -d ./reports/login tests
 OU
-robot tests/login_test.robot
+robot tests
 ```
